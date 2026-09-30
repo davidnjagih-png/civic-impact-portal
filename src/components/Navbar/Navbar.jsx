@@ -9,22 +9,34 @@ function Navbar() {
 
         <ul className="navbar-links">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" className="navbar-link">
+              Home
+            </Link>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <Link to="/about" className="navbar-link">
+              About
+            </Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects" className="navbar-link">
+              Projects
+            </Link>
           </li>
           <li>
-            <Link to="/impact">Impact</Link>
+            <Link to="/impact" className="navbar-link">
+              Impact
+            </Link>
           </li>
           <li>
-            <Link to="/gallery">Gallery</Link>
+            <Link to="/gallery" className="navbar-link">
+              Gallery
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <Link to="/contact" className="navbar-link">
+              Contact
+            </Link>
           </li>
         </ul>
       </div>
