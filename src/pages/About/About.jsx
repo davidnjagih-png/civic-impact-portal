@@ -18,7 +18,7 @@ function About() {
         <div className="container">
           <div className="bio-content">
             <div className="bio-image">
-              <img src={mainPhoto} alt="Leader" />
+              <img className="image-bio" src={mainPhoto} alt="Leader" />
             </div>
             <div className="bio-text">
               <h2>Biography</h2>

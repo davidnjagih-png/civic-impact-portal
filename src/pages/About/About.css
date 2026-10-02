@@ -1,0 +1,33 @@
+.about-hero {
+  background: #0f4c81;
+  color: white;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.bio-section {
+  padding: 5rem 2rem;
+}
+
+.bio-content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+.bio-image {
+  width: 100%;
+  border-radius: 1px;
+}
+
+.image-bio {
+  width: 600px;
+  border-radius: 1px;
+  height: auto;
+}
