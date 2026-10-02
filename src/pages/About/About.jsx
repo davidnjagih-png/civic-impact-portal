@@ -7,10 +7,8 @@ function About() {
       <section className="about-hero">
         <div className="container">
           <h1>About The Leader</h1>
-          <p>
-            Dedicated to transforming communities through strategic investments
-            in healthcare, education, infrastructure and economic empowerment.
-          </p>
+          <p>Closer to the people committed to change.</p>
+          <p> KIRINYAGA GWITÛ </p>
         </div>
       </section>
 
@@ -23,7 +21,7 @@ function About() {
             <div className="bio-text">
               <h2>Biography</h2>
               <p>
-                <span className="highlight">Wangui Ngirici</span>
+                <span className="highlight">Wangui Ngirici </span>
                 has devoted years to improving communities through strategic
                 investments in education, healthcare, infrastructure and youth
                 empowerment.
@@ -39,17 +37,17 @@ function About() {
         </div>
       </section>
 
-      <section className="vission-section">
+      <section className="vision-section">
         <div className="container">
-          <div className="vission-grid">
-            <div className="vission-card">
+          <div className="vision-grid">
+            <div className="vision-card">
               <h2>Vision</h2>
               <p>
                 To create a thriving community where every individual has access
                 to quality education, healthcare, and economic opportunities.
               </p>
             </div>
-            <div className="vission-card">
+            <div className="vision-card">
               <h2>Mission</h2>
               <p>
                 To deliver transparent, impactful and people-centred development
