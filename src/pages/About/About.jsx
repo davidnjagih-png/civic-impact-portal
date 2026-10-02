@@ -38,6 +38,27 @@ function About() {
           </div>
         </div>
       </section>
+
+      <section className="vission-section">
+        <div className="container">
+          <div className="vission-grid">
+            <div className="vission-card">
+              <h2>Vision</h2>
+              <p>
+                To create a thriving community where every individual has access
+                to quality education, healthcare, and economic opportunities.
+              </p>
+            </div>
+            <div className="vission-card">
+              <h2>Mission</h2>
+              <p>
+                To deliver transparent, impactful and people-centred development
+                initiatives that improve lives and strengthen communities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
