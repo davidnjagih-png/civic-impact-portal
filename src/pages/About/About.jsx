@@ -59,6 +59,26 @@ function About() {
           </div>
         </div>
       </section>
+
+      <section className="achievements-section">
+        <div className="container">
+          <h2>Key Achievements</h2>
+          <div className="achievements-grid">
+            <div className="achievement-card">
+              <h3>120+</h3>
+              <p>Projects Delivered</p>
+            </div>
+            <div className="achievement-card">
+              <h3>50+</h3>
+              <p>Communities Impacted</p>
+            </div>
+            <div className="achievement-card">
+              <h3>1000+</h3>
+              <p>Students Supported</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
