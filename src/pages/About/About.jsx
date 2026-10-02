@@ -1,5 +1,5 @@
 import "./About.css";
-import mainPhoto from "../../assets/images/main-photo.jpg";
+import WanguiNgirici from "../../assets/images/WanguiNgirici.jpg";
 
 function About() {
   return (
@@ -18,12 +18,12 @@ function About() {
         <div className="container">
           <div className="bio-content">
             <div className="bio-image">
-              <img className="image-bio" src={mainPhoto} alt="Leader" />
+              <img className="image-bio" src={WanguiNgirici} alt="Leader" />
             </div>
             <div className="bio-text">
               <h2>Biography</h2>
               <p>
-                <span className="highlight">Hon. Duncan Maina Mathenge </span>
+                <span className="highlight">Wangui Ngirici</span>
                 has devoted years to improving communities through strategic
                 investments in education, healthcare, infrastructure and youth
                 empowerment.
