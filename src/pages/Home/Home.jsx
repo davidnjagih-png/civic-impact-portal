@@ -1,12 +1,12 @@
 import Hero from "../../components/Hero/Hero";
-import Impact from "../../components/ImpactStats/ImpactStats";
+import ImpactStats from "../../components/ImpactStats/ImpactStats";
 import "./Home.css";
 
 function Home() {
   return (
     <>
       <Hero />
-      <Impact />
+      <ImpactStats />
       <section className="about-preview">
         <div className="container">
           <h2>Leadership By Action</h2>
