@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <div className="navbar-logo">Hon. Duncan M. Mathenge</div>
+        <div className="navbar-logo">Wangui Ngirici</div>
 
         <ul className="navbar-links">
           <li>
