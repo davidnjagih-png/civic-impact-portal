@@ -28,6 +28,7 @@ function Navbar() {
               Impact
             </Link>
           </li>
+
           <li>
             <Link to="/gallery" className="navbar-link">
               Gallery
