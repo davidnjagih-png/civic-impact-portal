@@ -4,7 +4,7 @@ import "./ProjectCard.css";
 function ProjectCard({ project }) {
   return (
     <div className="project-card">
-      {project.image[0]}
+      {project.image?.[0]}
       <div className="project-info">
         <span className="status">{project.status}</span>
         <h3>{project.title}</h3>
