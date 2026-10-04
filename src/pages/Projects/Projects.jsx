@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import "./Projects.css";
-import projectsData from "../../data/projectsData";
+import projectsData from "../../data/projects";
 
 function Projects() {
   const [serch, setSearch] = useState("");
