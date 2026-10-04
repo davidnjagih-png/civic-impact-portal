@@ -1,5 +1,5 @@
-function Impact() {
+function Contact() {
   return <h1>contact page</h1>;
 }
 
-export default Impact;
+export default Contact;
