@@ -35,6 +35,47 @@ function Contact() {
           <button type="submit">Send Message</button>
         </form>
       </section>
+
+      <section className="social-section">
+        <div className="container">
+          <h2> Connect with Us</h2>
+
+          <div className="social-links">
+            #Facebook
+            <a
+              href="https://www.facebook.com/civicimpact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-facebook-f"></i>
+            </a>
+            #Twitter
+            <a
+              href="https://twitter.com/civicimpact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+            #Instagram
+            <a
+              href="https://www.instagram.com/civicimpact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+            #LinkedIn
+            <a
+              href="https://www.linkedin.com/company/civicimpact"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
