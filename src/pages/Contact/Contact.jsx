@@ -1,4 +1,10 @@
 import "./Contact.css";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa";
 
 function Contact() {
   return (
@@ -41,37 +47,40 @@ function Contact() {
           <h2> Connect with Us</h2>
 
           <div className="social-links">
-            #Facebook
             <a
               href="https://www.facebook.com/civicimpact"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Facebook"
             >
-              <i className="fab fa-facebook-f"></i>
+              <FaFacebookF />
             </a>
-            #Twitter
+
             <a
               href="https://twitter.com/civicimpact"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Twitter"
             >
-              <i className="fab fa-twitter"></i>
+              <FaTwitter />
             </a>
-            #Instagram
+
             <a
               href="https://www.instagram.com/civicimpact"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Instagram"
             >
-              <i className="fab fa-instagram"></i>
+              <FaInstagram />
             </a>
-            #LinkedIn
+
             <a
               href="https://www.linkedin.com/company/civicimpact"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="LinkedIn"
             >
-              <i className="fab fa-linkedin-in"></i>
+              <FaLinkedinIn />
             </a>
           </div>
         </div>
