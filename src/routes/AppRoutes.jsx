@@ -5,6 +5,7 @@ import Projects from "../pages/Projects/Projects";
 import Impact from "../pages/Impact/Impact";
 import Contact from "../pages/Contact/Contact";
 import Gallery from "../pages/Gallery/Gallery";
+import ProjectDetails from "../pages/Projects/ProjectDetails";
 
 function AppRoutes() {
   return (
@@ -15,6 +16,7 @@ function AppRoutes() {
       <Route path="/impact" element={<Impact />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/gallery" element={<Gallery />} />
+      <Route path="/projects/:id" element={<ProjectDetails />} />
     </Routes>
   );
 }
