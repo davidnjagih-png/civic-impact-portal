@@ -1,3 +1,9 @@
+import w1 from "../assets/images/w1.png";
+import w2 from "../assets/images/w2.png";
+import w3 from "../assets/images/w3.png";
+import w4 from "../assets/images/w4.png";
+import w5 from "../assets/images/w5.png";
+
 const projects = [
   {
     id: 1,
@@ -7,7 +13,7 @@ const projects = [
 
     status: "Completed",
 
-    images: ["/images/projects/road1.jpg"],
+    images: [w5, w1, w2, w3, w4],
   },
 
   {
@@ -18,7 +24,7 @@ const projects = [
 
     status: "Ongoing",
 
-    images: ["/images/projects/health1.jpg"],
+    images: [w2, w3, w4],
   },
 ];
 
